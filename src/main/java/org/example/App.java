@@ -61,6 +61,10 @@ public class App
         {
             nameOfMonth="December";
         }
+        if(month > 12 || month <= 0)
+        {
+            nameOfMonth="ERROR: PLEASE GIVE VALID NUMBER";
+        }
         System.out.println("The name of the month is " + nameOfMonth + ".");//Output
 
 
